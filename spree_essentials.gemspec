@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('rdiscount',   '~> 1.6.8')
 
   s.add_development_dependency 'm'
-  s.add_development_dependency('mocha',        '~> 0.12.7')
+  s.add_development_dependency('mocha',        '~> 0.13.3')
   s.add_development_dependency('shoulda',      '~> 3.0.0')
   s.add_development_dependency('shoulda-context', '1.0.0')
   s.add_development_dependency('dummier',      '~> 0.3.0')
