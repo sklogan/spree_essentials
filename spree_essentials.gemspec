@@ -18,11 +18,10 @@ Gem::Specification.new do |s|
 
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency('spree_core',  '~> 2.0')
-  s.add_runtime_dependency('spree_frontend',  '~> 2.0')
-  s.add_runtime_dependency('spree_backend',  '~> 2.0')
+  s.add_runtime_dependency('spree_core',  '>= 2.1.0')
+  s.add_runtime_dependency('spree_frontend',  '>= 2.1.0')
+  s.add_runtime_dependency('spree_backend',  '>= 2.1.0')
   s.add_runtime_dependency('rdiscount',   '~> 1.6.8')
-
   s.add_development_dependency 'm'
   s.add_development_dependency('mocha',        '0.13.3')
   s.add_development_dependency('shoulda',      '~> 3.0.0')
